@@ -64,10 +64,10 @@ const Footer = () => {
 type FooterColumnProps ={
   title:string;
   children:React.ReactNode
-  key:string
+  // key:string
 }
 
-const FooterColumn =({title,children,key}:FooterColumnProps) =>{
+const FooterColumn =({title,children}:FooterColumnProps) =>{
   return(
     <div className='flex flex-col gap-5'>
       <h4 className='bold-18 whitespace-nowrap'>{title}</h4>
